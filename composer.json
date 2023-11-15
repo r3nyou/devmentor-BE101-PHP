@@ -1,0 +1,17 @@
+{
+    "name": "devmentor/backend-homework-1",
+    "require": {
+        "php": "^8.0",
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    }
+}
